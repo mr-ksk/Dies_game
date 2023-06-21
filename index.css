@@ -1,0 +1,96 @@
+body{
+	background-color: black
+}
+h1{
+	text-align: center;
+	color: aquamarine;
+	font-size: 3rem;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+}
+h1:hover{
+	color: yellow;
+}
+img{
+	margin: 80px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.kk{
+	border-radius: 10px;
+	margin: 70px;
+	margin-bottom: 2px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: rgb(249, 249, 68);
+	background-color: indianred;
+	font-family: 'Times New Roman', Times, serif;
+}
+.kk:hover{
+	background-color: aliceblue;
+	color: red;
+}
+h2{
+	color:aquamarine;
+	margin: 50px;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	font-size: 2rem;
+}
+h2:hover{
+	color: yellow;
+}
+.pk:hover{
+	color: red;
+}
+	
+.but{
+	border-radius: 40%;
+	background-color: blue;
+	margin-top: 1px;
+	border: 10px;
+	margin:20px;
+	padding: 30px;
+	color: darkblue;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: italic;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+.but:hover{
+	background-color: rgb(34, 9, 57);
+	color: aliceblue;
+}
+footer{
+	color: yellow;
+}
+marquee{
+	color: pink
+}
+.mak{
+	color: black;
+}
+.ln{
+	color: rgb(63, 63, 235);
+	margin: 20px;
+}
+@media(max-width:565px){
+	h1{
+		font-size: 2rem;
+		margin: 50px;
+	}
+	img{
+		margin: 40px;
+		height: 50px;
+	}
+	.kk{
+		margin: 50px;
+	}
+	.but{
+		padding: 10px;
+		margin: 50px;
+	}
